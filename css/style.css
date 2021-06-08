@@ -1,0 +1,44 @@
+/*
+Color del cuerpo de HTML (o root como pseudo clase) y los links
+Es posible usar variables => --nomVariable = #212121; para llamar => color: var(--nomVariable)
+*/
+:root {
+  font-size: 16px;
+}
+
+body, a {
+  color:#212121;
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+header {
+  font-size: 0.875rem;
+  color: #616161;
+}
+
+nav details summary {
+  font-weight: bold;
+}
+
+/*Solo los enlaces del header, por eso se coloca "a" haciendo alusión a la etiqueta html*/
+header a {
+  text-decoration: none;
+  color: #616161;
+}
+
+/*Color al pasar el mouse*/
+
+header a:hover {
+  color: #212121;
+}
